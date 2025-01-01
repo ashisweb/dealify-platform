@@ -3,6 +3,7 @@ import { SearchBar } from "@/components/SearchBar";
 import { DealCard } from "@/components/DealCard";
 import { CategoryCard } from "@/components/CategoryCard";
 import { Newsletter } from "@/components/Newsletter";
+import { Footer } from "@/components/Footer";
 
 const categories = [
   { icon: ShoppingBag, name: "Fashion", dealCount: 156 },
@@ -82,6 +83,9 @@ const Index = () => {
           <Newsletter />
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
