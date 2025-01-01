@@ -43,12 +43,15 @@ const Index = () => {
       {/* Hero Section */}
       <section className="bg-white py-16 px-4">
         <div className="container max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Save More with Latest Deals & Coupons
-          </h1>
-          <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            Discover the best promo codes and deals from your favorite stores
-          </p>
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold text-primary mb-2">dealsandoffers.site</h2>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Save More with Latest Deals & Coupons
+            </h1>
+            <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+              Discover the best promo codes and deals from your favorite stores
+            </p>
+          </div>
           <SearchBar />
         </div>
       </section>
