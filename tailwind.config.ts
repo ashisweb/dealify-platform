@@ -25,9 +25,9 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#F97316", // Changed to orange
-          hover: "#EA580C", // Darker orange for hover
-          light: "#FED7AA", // Light orange background
+          DEFAULT: "#F97316",
+          hover: "#EA580C",
+          light: "#FED7AA",
         },
         secondary: {
           DEFAULT: "#F4F4F5",
@@ -47,11 +47,16 @@ export default {
           "0%": { opacity: "0", transform: "translateY(10px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "spin-slow": {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.3s ease-out",
+        "spin-slow": "spin-slow 3s linear infinite",
       },
     },
   },
