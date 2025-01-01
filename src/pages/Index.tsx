@@ -40,11 +40,19 @@ const featuredDeals = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Header with Dancing Logo */}
+      <header className="bg-white py-4 px-4 border-b border-gray-200">
+        <div className="container max-w-6xl mx-auto">
+          <h2 className="text-2xl font-semibold text-primary animate-bounce hover:animate-none transition-all duration-300 cursor-pointer">
+            dealsandoffers.site
+          </h2>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="bg-white py-16 px-4">
         <div className="container max-w-6xl mx-auto text-center">
           <div className="mb-8">
-            <h2 className="text-2xl font-semibold text-primary mb-2">dealsandoffers.site</h2>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Save More with Latest Deals & Coupons
             </h1>
